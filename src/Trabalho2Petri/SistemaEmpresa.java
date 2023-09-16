@@ -1,6 +1,6 @@
 package Trabalho2Petri;
 
-import java.util.ArrayList;
+import java.util.ArrayList; // Usei o ArrayList para armazenar os dados do funcionario e poder gerencialos para um proximo passo alem da area escolhida 
 import java.util.Scanner;
 
 public class SistemaEmpresa {
@@ -41,9 +41,9 @@ public class SistemaEmpresa {
                         continue;
                 }
 
-                Desenvolvedor desenvolvedor = new Desenvolvedor(SFuncionario);
-                desenvolvedor.setSetor(Sfuncionario);
-                funcionarios.add(desenvolvedor);
+                Desenvolvedor desenvolvedor = new Desenvolvedor(SFuncionario); 
+                desenvolvedor.setSetor(Sfuncionario); 
+                funcionarios.add(desenvolvedor); //ex do uso
 
                 desenvolvedor.trabalhar();
             } else if (op == 2) {
@@ -72,7 +72,7 @@ public class SistemaEmpresa {
 
                 Designer designer = new Designer(Nfuncionario);
                 designer.setSetor(Sfuncionario);
-                funcionarios.add(designer);
+                funcionarios.add(designer); //exemplo do uso 
 
                 designer.trabalhar();
             } else if (op == 3) {
