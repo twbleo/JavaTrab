@@ -1,6 +1,6 @@
 package Trabalho2Petri;
 
-import java.util.ArrayList; // Usei o ArrayList para armazenar os dados do funcionario e poder gerencialos para um proximo passo alem da area escolhida 
+import java.util.ArrayList; // Usei o ArrayList para armazenar os dados do funcionario e poder gerencialos
 import java.util.Scanner;
 
 public class SistemaEmpresa {
